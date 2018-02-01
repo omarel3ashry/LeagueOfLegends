@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rank">20sp</dimen>
+    <dimen name="tier">16sp</dimen>
+    <dimen name="div">25sp</dimen>
+    <dimen name="zero">30sp</dimen>
+    <dimen name="marg_btn">10dp</dimen>
+    <dimen name="plc">12sp</dimen>
+</resources>

@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Promotion Series"
+        android:text="@string/promotion_series"
         android:textColor="#fff"
         android:layout_gravity="center"/>
 
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_gravity="center"
-        android:textSize="20dp"
+        android:textSize="@dimen/rank"
         android:text="o     o     o     o     o"
         android:textColor="@color/yellow"
         android:id="@+id/p_text"/>
@@ -29,18 +29,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="victory"
+        android:text="@string/victory"
         android:id="@+id/v_button"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/marg_btn"
         android:background="@drawable/background_btn"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="defeat"
+        android:text="@string/defeat"
         android:id="@+id/d_button"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/marg_btn"
         android:background="@drawable/background_btn"/>
 
 

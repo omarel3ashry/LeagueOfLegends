@@ -37,7 +37,7 @@
                         android:layout_gravity="center"
                         android:text="@string/ranked_solo"
                         android:textColor="@color/white"
-                        android:textSize="20sp" />
+                        android:textSize="@dimen/rank" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
                         android:layout_gravity="center"
                         android:text="@string/tier"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/tier" />
 
                     <TextView
                         android:id="@+id/rank_solo"
@@ -54,7 +54,7 @@
                         android:layout_gravity="center"
                         android:text="@string/unranked"
                         android:textColor="@color/yellow"
-                        android:textSize="25sp" />
+                        android:textSize="@dimen/div" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
                         android:layout_gravity="center"
                         android:text="@string/lp"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/tier" />
 
                     <TextView
                         android:id="@+id/point_solo"
@@ -71,7 +71,7 @@
                         android:layout_gravity="center"
                         android:text="@string/_0"
                         android:textColor="@color/yellow"
-                        android:textSize="30sp" />
+                        android:textSize="@dimen/zero" />
 
                     <TextView
                         android:id="@+id/gameS"
@@ -80,13 +80,13 @@
                         android:layout_gravity="center"
                         android:text="@string/game_played_0"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/tier" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="10dp"
+                        android:layout_margin="@dimen/marg_btn"
                         android:background="@drawable/background_btn"
                         android:onClick="victory_solo"
                         android:text="@string/victory"
@@ -97,7 +97,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="10dp"
+                        android:layout_margin="@dimen/marg_btn"
                         android:background="@drawable/background_btn"
                         android:onClick="defeat_solo"
                         android:text="@string/defeat" />
@@ -106,7 +106,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="10dp"
+                        android:layout_margin="@dimen/marg_btn"
                         android:background="@drawable/background_btn"
                         android:onClick="remake_solo"
                         android:text="@string/remake" />
@@ -118,7 +118,7 @@
                         android:layout_gravity="center"
                         android:text="@string/_10_placment_games_0w_0l"
                         android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        android:textSize="@dimen/plc" />
 
                 </LinearLayout>
 
@@ -141,7 +141,7 @@
                         android:layout_gravity="center"
                         android:text="@string/ranked_flex"
                         android:textColor="@color/white"
-                        android:textSize="20sp" />
+                        android:textSize="@dimen/rank" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -149,7 +149,7 @@
                         android:layout_gravity="center"
                         android:text="@string/tier"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/tier" />
 
                     <TextView
                         android:id="@+id/rank_flex"
@@ -158,7 +158,7 @@
                         android:layout_gravity="center"
                         android:text="@string/unranked"
                         android:textColor="@color/yellow"
-                        android:textSize="25sp" />
+                        android:textSize="@dimen/div" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -166,7 +166,7 @@
                         android:layout_gravity="center"
                         android:text="@string/lp"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/tier" />
 
                     <TextView
                         android:id="@+id/point_flex"
@@ -175,7 +175,7 @@
                         android:layout_gravity="center"
                         android:text="@string/_0"
                         android:textColor="@color/yellow"
-                        android:textSize="30sp" />
+                        android:textSize="@dimen/zero" />
 
                     <TextView
                         android:id="@+id/gameF"
@@ -184,13 +184,13 @@
                         android:layout_gravity="center"
                         android:text="@string/game_played_0"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/tier" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="10dp"
+                        android:layout_margin="@dimen/marg_btn"
                         android:background="@drawable/background_btn"
                         android:onClick="victory_flex"
                         android:text="@string/victory" />
@@ -200,7 +200,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="10dp"
+                        android:layout_margin="@dimen/marg_btn"
                         android:background="@drawable/background_btn"
                         android:onClick="defeat_flex"
                         android:text="@string/defeat" />
@@ -209,7 +209,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="10dp"
+                        android:layout_margin="@dimen/marg_btn"
                         android:background="@drawable/background_btn"
                         android:onClick="remake_flex"
                         android:text="@string/remake" />
@@ -221,7 +221,7 @@
                         android:layout_gravity="center"
                         android:text="@string/_10_placment_games_0w_0l"
                         android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        android:textSize="@dimen/plc" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -230,7 +230,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_gravity="bottom"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/marg_btn"
                 android:background="@drawable/background_btn"
                 android:onClick="reset"
                 android:text="@string/new_season" />
