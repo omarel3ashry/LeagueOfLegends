@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">League Of Legends</string>
+    <string name="ranked_solo">Ranked Solo</string>
+    <string name="tier">TIER</string>
+    <string name="unranked">Unranked</string>
+    <string name="lp">LP</string>
+    <string name="_0">0</string>
+    <string name="game_played_0">Game Played:0</string>
+    <string name="victory">Victory</string>
+    <string name="defeat">Defeat</string>
+    <string name="remake">Remake</string>
+    <string name="_10_placment_games_0w_0l">10 Placment Games 0W 0L</string>
+    <string name="ranked_flex">Ranked Flex</string>
+    <string name="new_season">New Season</string>
 </resources>
