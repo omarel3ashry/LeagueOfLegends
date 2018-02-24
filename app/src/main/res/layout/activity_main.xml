@@ -7,11 +7,12 @@
     android:backgroundTint="#263238"
     android:backgroundTintMode="multiply"
     android:orientation="horizontal"
-    tools:context="com.example.android.practiceset2.MainActivity">
+    tools:context="com.example.android.leagueoflegends.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"

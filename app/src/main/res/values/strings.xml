@@ -13,4 +13,47 @@
     <string name="ranked_flex">Ranked Flex</string>
     <string name="new_season">New Season</string>
     <string name="promotion_series">Promotion Series</string>
+    <string name="about">About</string>
+    <string name="game_logo">game logo</string>
+    <string name="descr">This app is about ranking system in an online game called \nLeague Of Legends\n
+ it’s not 100% accurate but include the basics of how your rank and your LP (League Point)
+going to be calculated When you reach level 30 you start playing ranked games
+you have first 10 games is a placement games that will detect your division\n
+\n Bronze(V,IV,III,II,I) \n Silver(V,IV,III,II,I) \n Gold(V,IV,III,II,I) \n Platinum(V,IV,III,II,I) \n Diamond(V,IV,III,II,I) \n Master \n Challenger\n
+\nWhen you claim your division you will start to score LP according to your Win or Lose how much LP you going to gain per victory
+or going to lose per defeatit stops on your MMR (Match Making Rate) and I used the average MMR for Every Division \n
+\nBRONZE LEAGUE MMR VALUES:\n 0-1149 MMR
+\nBronze 5 MMR is 0-869.
+\nBronze 4 MMR is 870-939.
+\nBronze 3 MMR is 940-1009.
+\nBronze 2 MMR is 1010-1079.
+\nBronze 1 MMR is 1080-1149.\n
+\nSILVER LEAGUE MMR VALUES:\n 1150-1499 MMR
+\nSilver 5 MMR is 1150-1219.
+\nSilver 4 MMR is 1220-1289.
+\nSilver 3 MMR is 1290-1359.
+\nSilver 2 MMR is 1360-1429.
+\nSilver 1 MMR is 1430-1499.\n
+\nGOLD LEAGUE MMR VALUES:\n 1500-1849 MMR
+\nGold 5 MMR is 1500-1569.
+\nGold 4 MMR is 1570-1639.
+\nGold 3 MMR is 1640-1709.
+\nGold 2 MMR is 1710-1779.
+\nGold 1 MMR is 1780-1849.\n
+\nPLATINUM LEAGUE MMR VALUES:\n 1850-2199 MMR
+\nPlatinum 5 MMR is 1850-1919.
+\nPlatinum 4 MMR is 1920-1989.
+\nPlatinum 3 MMR is 1990-2059.
+\nPlatinum 2 MMR is 2060-2129.
+\nPlatinum 1 MMR is 2130-2199.\n
+\nDIAMOND LEAGUE MMR VALUES:\n 2200-2549 MMR
+\nDiamond 5 MMR is 2200-2269.
+\nDiamond 4 MMR is 2270-2339.
+\nDiamond 3 MMR is 2340-2409.
+\nDiamond 2 MMR is 2410-2479.
+\nDiamond 1 MMR is 2480-2549.\n
+\nAnd every 100 LP there is 3 games series for (V,IV,III,II) and 5 games series for (I) which will up you to the next division, and so on.
+upon promotion or entering ranked tier for the first time and having 0 LP
+3 losses in a row. 4th loss = demotion
+</string>
 </resources>

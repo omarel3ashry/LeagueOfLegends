@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/irres"
+    android:backgroundTint="#263238"
+    android:backgroundTintMode="multiply"
+    android:orientation="vertical"
+    tools:context="com.example.android.leagueoflegends.AboutAppActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/game_logo"
+        android:src="@drawable/legopng" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/descr"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="20sp" />
+    </ScrollView>
+
+</LinearLayout>
