@@ -4,44 +4,35 @@
     android:layout_height="200dp"
     android:layout_gravity="center"
     android:background="@drawable/background_dialog"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+       style="@style/w_txt"
         android:layout_weight="1"
         android:text="@string/promotion_series"
-        android:textColor="#fff"
-        android:layout_gravity="center"/>
+        />
 
     <TextView
+        android:id="@+id/p_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_gravity="center"
-        android:textSize="@dimen/rank"
-        android:text="o     o     o     o     o"
+        android:layout_weight="1"
+        android:text="@string/o_o_o_o_o"
         android:textColor="@color/yellow"
-        android:id="@+id/p_text"/>
+        android:textSize="@dimen/rank" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/victory"
         android:id="@+id/v_button"
-        android:layout_margin="@dimen/marg_btn"
-        android:background="@drawable/background_btn"/>
+        style="@style/btn_style"
+        android:layout_weight="1"
+        android:text="@string/victory" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/defeat"
         android:id="@+id/d_button"
-        android:layout_margin="@dimen/marg_btn"
-        android:background="@drawable/background_btn"/>
+        style="@style/btn_style"
+        android:layout_weight="1"
+        android:text="@string/defeat" />
 
 
 </LinearLayout>

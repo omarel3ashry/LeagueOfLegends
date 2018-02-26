@@ -56,4 +56,5 @@ or going to lose per defeatit stops on your MMR (Match Making Rate) and I used t
 upon promotion or entering ranked tier for the first time and having 0 LP
 3 losses in a row. 4th loss = demotion
 </string>
+    <string name="o_o_o_o_o">o \t\t o\t\t o\t\t o\t\t o</string>
 </resources>

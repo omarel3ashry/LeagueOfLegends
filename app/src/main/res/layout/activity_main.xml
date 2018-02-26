@@ -33,92 +33,59 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/ranked_solo"
-                        android:textColor="@color/white"
                         android:textSize="@dimen/rank" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/tier"
-                        android:textColor="@color/white"
                         android:textSize="@dimen/tier" />
 
                     <TextView
                         android:id="@+id/rank_solo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/y_txt"
                         android:text="@string/unranked"
-                        android:textColor="@color/yellow"
                         android:textSize="@dimen/div" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/lp"
-                        android:textColor="@color/white"
                         android:textSize="@dimen/tier" />
 
                     <TextView
                         android:id="@+id/point_solo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/y_txt"
                         android:text="@string/_0"
-                        android:textColor="@color/yellow"
                         android:textSize="@dimen/zero" />
 
                     <TextView
                         android:id="@+id/gameS"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/game_played_0"
-                        android:textColor="@color/white"
                         android:textSize="@dimen/tier" />
 
                     <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="@dimen/marg_btn"
-                        android:background="@drawable/background_btn"
+                        style="@style/btn_style"
                         android:onClick="victory_solo"
                         android:text="@string/victory"
 
                         />
 
                     <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="@dimen/marg_btn"
-                        android:background="@drawable/background_btn"
+                        style="@style/btn_style"
                         android:onClick="defeat_solo"
                         android:text="@string/defeat" />
 
                     <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="@dimen/marg_btn"
-                        android:background="@drawable/background_btn"
+                        style="@style/btn_style"
                         android:onClick="remake_solo"
                         android:text="@string/remake" />
 
                     <TextView
                         android:id="@+id/plac_s"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/_10_placment_games_0w_0l"
-                        android:textColor="@color/white"
                         android:textSize="@dimen/plc" />
 
                 </LinearLayout>
@@ -137,91 +104,59 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/ranked_flex"
-                        android:textColor="@color/white"
                         android:textSize="@dimen/rank" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/tier"
-                        android:textColor="@color/white"
+
                         android:textSize="@dimen/tier" />
 
                     <TextView
                         android:id="@+id/rank_flex"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/y_txt"
                         android:text="@string/unranked"
-                        android:textColor="@color/yellow"
                         android:textSize="@dimen/div" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/lp"
-                        android:textColor="@color/white"
                         android:textSize="@dimen/tier" />
 
                     <TextView
                         android:id="@+id/point_flex"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/y_txt"
                         android:text="@string/_0"
-                        android:textColor="@color/yellow"
                         android:textSize="@dimen/zero" />
 
                     <TextView
                         android:id="@+id/gameF"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/game_played_0"
-                        android:textColor="@color/white"
                         android:textSize="@dimen/tier" />
 
                     <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="@dimen/marg_btn"
-                        android:background="@drawable/background_btn"
+                        style="@style/btn_style"
                         android:onClick="victory_flex"
                         android:text="@string/victory" />
 
 
                     <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="@dimen/marg_btn"
-                        android:background="@drawable/background_btn"
+                        style="@style/btn_style"
                         android:onClick="defeat_flex"
                         android:text="@string/defeat" />
 
                     <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="@dimen/marg_btn"
-                        android:background="@drawable/background_btn"
+                        style="@style/btn_style"
                         android:onClick="remake_flex"
                         android:text="@string/remake" />
 
                     <TextView
                         android:id="@+id/plac_f"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
+                        style="@style/w_txt"
                         android:text="@string/_10_placment_games_0w_0l"
-                        android:textColor="@color/white"
                         android:textSize="@dimen/plc" />
                 </LinearLayout>
             </LinearLayout>
