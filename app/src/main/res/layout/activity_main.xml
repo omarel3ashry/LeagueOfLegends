@@ -67,19 +67,19 @@
 
                     <Button
                         style="@style/btn_style"
-                        android:onClick="victory_solo"
+                        android:onClick="victorySolo"
                         android:text="@string/victory"
 
                         />
 
                     <Button
                         style="@style/btn_style"
-                        android:onClick="defeat_solo"
+                        android:onClick="defeatSolo"
                         android:text="@string/defeat" />
 
                     <Button
                         style="@style/btn_style"
-                        android:onClick="remake_solo"
+                        android:onClick="remakeSolo"
                         android:text="@string/remake" />
 
                     <TextView
@@ -139,18 +139,18 @@
 
                     <Button
                         style="@style/btn_style"
-                        android:onClick="victory_flex"
+                        android:onClick="victoryFlex"
                         android:text="@string/victory" />
 
 
                     <Button
                         style="@style/btn_style"
-                        android:onClick="defeat_flex"
+                        android:onClick="defeatFlex"
                         android:text="@string/defeat" />
 
                     <Button
                         style="@style/btn_style"
-                        android:onClick="remake_flex"
+                        android:onClick="remakeFlex"
                         android:text="@string/remake" />
 
                     <TextView
